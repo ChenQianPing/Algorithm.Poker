@@ -10,6 +10,12 @@ namespace Algorithm.Poker
     {
         static void Main(string[] args)
         {
+            var list = new List<string>();
+            Poker.Init(list);
+            Poker.XiPai(list);
+            Poker.Print(list);
+            Poker.DiPai(list);
+            list.Clear();
         }
     }
 }
